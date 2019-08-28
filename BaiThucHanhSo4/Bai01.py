@@ -1,13 +1,12 @@
 from drawingpanel import *
-def doc():
-    print("Doan Tran Tuan Dat - 16035741 - DHKHMT12A")
-def main():
-    print("\n")
-    doc()
+def showName():
+    print("Nguyen Vu Khanh Huy - 16025591 - DHKHMT12A")
+    print("_____________________________________________")
+def draw_1():
+    showName()
     panel = DrawingPanel(400, 300)
     panel.set_background("yellow")
     panel.canvas.create_rectangle(100, 50, 200, 300)
-    panel.mainloop
 if __name__ == '__main__':
-    main()
+	draw_1()
     
